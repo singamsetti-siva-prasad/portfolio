@@ -1,6 +1,7 @@
 import React from "react";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import StarRateOutlinedIcon from "@mui/icons-material/StarRateOutlined";
+import WorkHistoryOutlinedIcon from "@mui/icons-material/WorkHistoryOutlined";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -32,7 +33,7 @@ const Timeline = () => {
             border: "1px solid white",
           }}
           iconStyle={{ background: "black", color: "#fff" }}
-          icon={<SchoolOutlinedIcon />}
+          icon={<WorkHistoryOutlinedIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Full Stack Web Developer Trainee
@@ -49,7 +50,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           date="June 2021 - December 2021"
           iconStyle={{ background: "black", color: "#fff" }}
-          icon={<SchoolOutlinedIcon />}
+          icon={<WorkHistoryOutlinedIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Web Development Intern

@@ -31,9 +31,19 @@ const Projects = () => {
       name: "Get YouTube Subscribers",
       image: "/youtubesubs.png",
       link: "https://youtube-subscribers-six.vercel.app/",
-      desc1: "Created a collection in mongoDB containing subscribers details ",
-      desc2: "Created a server using Express.js framework",
+      desc1: "Created a server using Express.js framework",
+      desc2:
+        "Enforced schema of the subscribers collection was enforced using mongoose",
       desc3: "Tested API's using Jest and SuperTest library",
+    },
+    {
+      name: "Chat Application",
+      image: "/letschat.png",
+      link: "https://lets-chat-ssp.netlify.app/login",
+      desc1:
+        "Designed a website to enable users to seamlessly communicate with each other ",
+      desc2: "Developed front end using React JS, Tailwind CSS and Formik.js",
+      desc3: "Implemented back end as service with Firebase",
     },
   ];
   return (

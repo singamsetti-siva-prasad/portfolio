@@ -42,15 +42,16 @@ const AboutMe = () => {
         <Heading>About me</Heading>
         <DescContainer>
           <Desc>
-            Hello, My name is siva prasad singamsetti a full stack web developer
-            3.0 enthusiast from India.
+            Hello, My name is siva prasad singamsetti a passionate full stack
+            web developer and a blockchain enthusiast from India having an
+            experience in building web applications with MERN Stack
           </Desc>
-          <Desc>I create user-friendly and visually appealing websites</Desc>
-          <Desc>I like connecting with new people</Desc>
           <Desc>
-            Aside from web development, I enjoy listening to music and farming
-            in my free time.
+            Aside from web development, I enjoy listening to music and
+            participating in farming activities in my free time.
           </Desc>
+          <Desc>I like connecting with new people </Desc>
+
           <Desc>
             Thank you for taking the time to visit my portfolio website. I hope
             you find my work impressive and I look forward to working with you

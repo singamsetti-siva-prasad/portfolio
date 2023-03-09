@@ -30,7 +30,7 @@ const Input = styled.input`
   width: 20%;
   padding: 1.2rem;
   font-weight: bold;
-  background-color: #e1d9d1;
+  background-color: white;
   @media (max-width: 767px) {
     width: 70%;
   }
@@ -39,7 +39,8 @@ const Textarea = styled.textarea`
   margin: 1.5rem;
   padding: 1.2rem;
   width: 20%;
-  background-color: #e1d9d1;
+  font-weight: bold;
+  background-color: white;
   @media (max-width: 767px) {
     width: 70%;
   }

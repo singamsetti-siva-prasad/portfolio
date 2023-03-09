@@ -10,6 +10,7 @@ const Container = styled.div`
   align-items: center;
   /* justify-content: space-around; */
   /* margin: 2rem 0; */
+  overflow: hidden;
   padding: 1rem;
 `;
 
@@ -47,11 +48,15 @@ const Skills = () => {
     },
     {
       title: "Frontend",
-      skills: ["HTML", "CSS", "TailwindCSS", "React.js"],
+      skills: ["HTML", "CSS", "TailwindCSS", "React.js", ""],
     },
     {
       title: "Backend",
       skills: ["Node.js", "Express.js", "MySQL", "MongoDB"],
+    },
+    {
+      title: "Web 3.0",
+      skills: ["Ethereum", "Solidity", "Ethers.js", "Hardhat", "wagmi"],
     },
   ];
   return (
