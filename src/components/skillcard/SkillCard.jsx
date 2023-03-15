@@ -35,7 +35,7 @@ const SkillCard = ({ tech }) => {
     <Container>
       <Heading>{tech.title}</Heading>
       {tech.skills.map((skill) => (
-        <P>{skill}</P>
+        <P key={skill}>{skill}</P>
       ))}
     </Container>
   );

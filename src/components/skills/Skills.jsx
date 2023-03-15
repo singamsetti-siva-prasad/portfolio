@@ -65,7 +65,7 @@ const Skills = () => {
         <Heading>Skills</Heading>
         <SkillContainer>
           {skillsData.map((tech) => (
-            <SkillCard tech={tech} />
+            <SkillCard tech={tech} key={tech.title} />
           ))}
         </SkillContainer>
       </Wrapper>

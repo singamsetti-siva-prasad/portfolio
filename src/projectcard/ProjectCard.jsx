@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import OpenInNewOutlinedIcon from "@mui/icons-material/OpenInNewOutlined";
 
 const Container = styled.div`
   width: 50vw;
@@ -112,11 +113,10 @@ const ProjectCard = ({ item }) => {
           <Desc>{item.desc1}</Desc>
           <Desc>{item.desc2}</Desc>
           <Desc>{item.desc3}</Desc>
-          <Button>
-            <Link href={item.link} target="_blank">
-              Link
-            </Link>
-          </Button>
+
+          <Link href={item.link} target="_blank">
+            <OpenInNewOutlinedIcon fontSize="small" />
+          </Link>
         </Right>
       </Wrapper>
     </Container>
